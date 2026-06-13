@@ -4,6 +4,9 @@
 This project aims to provide a hardware tool to access and use software amp modelers in a studio setting.
 
 ## PCB
+## Schematic
+<img width="1797" height="1141" alt="image" src="https://github.com/user-attachments/assets/8396514d-3abd-46d3-91ce-4c2643199480" />
+
 ### Long format
 <img width="509.5" height="149.5" alt="image" src="https://github.com/user-attachments/assets/81ea798d-6864-43a2-bef9-1db7d8381a37" />
 

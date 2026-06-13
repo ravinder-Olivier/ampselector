@@ -17,3 +17,6 @@ The longer format is likely better for most studio settings,
 
 The taller format is likely better for desk use, or on top of an amplifier or FRFR cab (as I'll be doing)
 
+## Firmware
+
+This project uses QMK to drive the Xiao. 

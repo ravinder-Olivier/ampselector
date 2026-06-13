@@ -13,13 +13,13 @@
         "oled": true
     },
     "matrix_pins": {
-        "cols": ["D1", "D2", "D3", "D4","D11"],
-        "rows": ["D5", "D6"]
+        "cols": ["D0", "D1", "D2", "D3", "D10"],
+        "rows": ["D4", "D5"]
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "D7", "pin_b": "D8"},
-            {"pin_a": "D9", "pin_b": "D10"}
+            {"pin_a": "D9", "pin_b": "D8"},
+            {"pin_a": "D7", "pin_b": "D6"}
             ]
     },
     "processor": "RP2040",
@@ -41,7 +41,7 @@
                 {"matrix": [1, 1], "x": 1, "y": 1},
                 {"matrix": [1, 2], "x": 2, "y": 1},
                 {"matrix": [1, 3], "x": 3, "y": 1},
-                {"matrix": [1, 4], "x": 4, "y": 0}
+                {"matrix": [1, 4], "x": 4, "y": 1}
             ]
         }
     }

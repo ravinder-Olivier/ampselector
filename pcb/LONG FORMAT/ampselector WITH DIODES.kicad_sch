@@ -2588,7 +2588,7 @@
 			(uuid "7217430f-b2fe-4419-8265-7bc9a0af54c0")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D10")
 					(unit 1)
@@ -2668,7 +2668,7 @@
 			(uuid "581f120e-33fd-4654-9591-a4aa9e0e7f01")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW6")
 					(unit 1)
@@ -2748,7 +2748,7 @@
 			(uuid "4ef89171-76c4-44db-8c22-df05ceb5ec75")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW2")
 					(unit 1)
@@ -2826,7 +2826,7 @@
 			(uuid "a60bc8dc-4f0c-4fa7-9c83-c10676a80794")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR02")
 					(unit 1)
@@ -2930,7 +2930,7 @@
 			(uuid "2567353f-a920-487c-bdb6-d1633730bd9a")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D6")
 					(unit 1)
@@ -3010,7 +3010,7 @@
 			(uuid "1bf4eefc-cbb6-4ae7-9ed4-73ba797dd582")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW7")
 					(unit 1)
@@ -3114,7 +3114,7 @@
 			(uuid "919d7515-fd54-4731-bf3a-f77117cbf983")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D4")
 					(unit 1)
@@ -3216,7 +3216,7 @@
 			(uuid "5a723f0a-3da8-43e4-80bb-29440e4ae097")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D9")
 					(unit 1)
@@ -3320,7 +3320,7 @@
 			(uuid "082921f5-a484-43c2-9411-ec4c93f77195")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D1")
 					(unit 1)
@@ -3424,7 +3424,7 @@
 			(uuid "6b23e1ff-a8c9-440f-9385-3055f890707f")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D3")
 					(unit 1)
@@ -3434,7 +3434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 39.37 0)
+		(at 19.05 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3445,7 +3445,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c4790f0-9a0a-4771-a77c-ed76fcda97ef")
 		(property "Reference" "#PWR07"
-			(at 19.05 45.72 0)
+			(at 19.05 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 44.45 0)
+			(at 19.05 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3466,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 39.37 0)
+			(at 19.05 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 39.37 0)
+			(at 19.05 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 39.37 0)
+			(at 19.05 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +3502,7 @@
 			(uuid "616aa7d3-c3cd-4beb-b1a9-ee479a1dd18c")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR07")
 					(unit 1)
@@ -3590,7 +3590,7 @@
 			(uuid "5972cac8-6cb6-43b1-9c2d-aefb3dea02ad")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "U2")
 					(unit 1)
@@ -3694,7 +3694,7 @@
 			(uuid "fb6ee7b2-dc21-4fff-b9cc-33cb7a636d75")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D2")
 					(unit 1)
@@ -3772,7 +3772,7 @@
 			(uuid "cafa8fa8-fe77-4fe0-b517-a8be87339aa7")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR01")
 					(unit 1)
@@ -3850,7 +3850,7 @@
 			(uuid "f5929435-85c9-4f80-9ae0-7caf7dd2f68e")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR05")
 					(unit 1)
@@ -3930,7 +3930,7 @@
 			(uuid "63fc6272-525d-41f3-906c-e596aeaa047a")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW3")
 					(unit 1)
@@ -4019,7 +4019,7 @@
 			(uuid "ff86e95e-d6de-4d96-9284-1a5130c67b04")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW9")
 					(unit 1)
@@ -4123,7 +4123,7 @@
 			(uuid "0655296d-97c8-48ae-a382-67011897be98")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D7")
 					(unit 1)
@@ -4201,7 +4201,7 @@
 			(uuid "80ca6770-3e56-450c-8aa6-3c63e38ed142")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR03")
 					(unit 1)
@@ -4279,7 +4279,7 @@
 			(uuid "f7d2ec88-90b7-4d09-8167-194ef8390f73")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR04")
 					(unit 1)
@@ -4289,7 +4289,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 19.05 36.83 0)
+		(at 19.05 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4300,7 +4300,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f775d5a-78da-4318-8f57-1feee1c304ce")
 		(property "Reference" "H1"
-			(at 21.59 34.2899 0)
+			(at 21.59 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4311,7 +4311,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 21.59 36.8299 0)
+			(at 21.59 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4322,7 +4322,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad"
-			(at 19.05 36.83 0)
+			(at 19.05 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,7 +4333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 36.83 0)
+			(at 19.05 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4344,7 +4344,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 19.05 36.83 0)
+			(at 19.05 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4358,7 @@
 			(uuid "8f789fee-46a6-4d34-8807-b4cd9a075480")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "H1")
 					(unit 1)
@@ -4438,7 +4438,7 @@
 			(uuid "d5a0c0f4-25fc-4415-b3bb-990f46cd37ed")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW1")
 					(unit 1)
@@ -4542,7 +4542,7 @@
 			(uuid "c76f35fb-1647-489b-b102-27dc8e5117b8")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D5")
 					(unit 1)
@@ -4620,7 +4620,7 @@
 			(uuid "d1fe0bfd-69a3-467f-81d9-3c248e7a1fad")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR06")
 					(unit 1)
@@ -4630,7 +4630,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 22.86 0)
+		(at 19.05 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4641,7 +4641,7 @@
 		(fields_autoplaced yes)
 		(uuid "c34b67db-1039-47ab-ab65-89eb66e45c23")
 		(property "Reference" "H2"
-			(at 34.29 20.3199 0)
+			(at 21.59 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4652,7 +4652,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 34.29 22.8599 0)
+			(at 21.59 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4663,7 +4663,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad"
-			(at 31.75 22.86 0)
+			(at 19.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 22.86 0)
+			(at 19.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4685,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 22.86 0)
+			(at 19.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +4699,7 @@
 			(uuid "47bbcdb4-d86a-4f9c-bfe0-fbb6384d00d9")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "H2")
 					(unit 1)
@@ -4788,7 +4788,7 @@
 			(uuid "bb62d12c-7d47-4d9a-bf98-722edef56b7e")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW10")
 					(unit 1)
@@ -4798,7 +4798,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 25.4 0)
+		(at 19.05 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4809,7 +4809,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce6581ec-298a-45a5-bdfb-94c2f8b525a4")
 		(property "Reference" "#PWR08"
-			(at 31.75 31.75 0)
+			(at 19.05 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4820,7 +4820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 30.48 0)
+			(at 19.05 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4830,7 +4830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 25.4 0)
+			(at 19.05 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4841,7 +4841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 25.4 0)
+			(at 19.05 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,7 +4852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 25.4 0)
+			(at 19.05 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4866,7 +4866,7 @@
 			(uuid "51216440-5ae1-49a5-a01b-09bc8e44079e")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "#PWR08")
 					(unit 1)
@@ -4946,7 +4946,7 @@
 			(uuid "e5e5214d-7e1b-4deb-a8c4-fe1d00d70b31")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW5")
 					(unit 1)
@@ -5062,7 +5062,7 @@
 			(uuid "99a55ebb-a393-474e-83b8-2d0f6d0ce816")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "U1")
 					(unit 1)
@@ -5142,7 +5142,7 @@
 			(uuid "46c75b85-6ea3-4e6f-86ad-c4e178caea3a")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW4")
 					(unit 1)
@@ -5222,7 +5222,7 @@
 			(uuid "4c5c249e-21d2-44c0-b865-b5d4d5949655")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "SW8")
 					(unit 1)
@@ -5326,7 +5326,7 @@
 			(uuid "e8d8db18-f927-4376-8ac1-e197345ff3b8")
 		)
 		(instances
-			(project "ampselector"
+			(project "ampselector WITH DIODES"
 				(path "/1cb240f3-0e6b-4fd9-983f-1b0352a6acf6"
 					(reference "D8")
 					(unit 1)

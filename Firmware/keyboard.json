@@ -4,7 +4,6 @@
     "maintainer": "ravinder-olivier",
     "bootloader": "rp2040",
     "url": "https://github.com/ravinder-Olivier/ampselector",
-    "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,

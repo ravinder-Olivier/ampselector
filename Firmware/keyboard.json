@@ -2,6 +2,7 @@
     "manufacturer": "ROD",
     "keyboard_name": "ampselector",
     "maintainer": "ravinder-olivier",
+    "url": "https://github.com/ravinder-Olivier/ampselector",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
@@ -23,7 +24,6 @@
             ]
     },
     "processor": "RP2040",
-    "url": "https://github.com/ravinder-Olivier/ampselector",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",

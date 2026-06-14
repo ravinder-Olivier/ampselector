@@ -14,14 +14,14 @@
         "oled": true
     },
     "matrix_pins": {
-        "cols": ["D0", "D1", "D2", "D3", "D10"],
-        "rows": ["D4", "D5"]
+        "cols": ["GP26", "GP27", "GP28", "GP29", "GP24"],
+        "rows": ["GP6", "GP7"]
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "D9", "pin_b": "D8"},
-            {"pin_a": "D7", "pin_b": "D6"}
-            ]
+            {"pin_a": "GP4", "pin_b": "GP2"},
+            {"pin_a": "GP1", "pin_b": "GP21"}
+        ]
     },
     "processor": "RP2040",
     "usb": {

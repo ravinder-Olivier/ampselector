@@ -1,25 +1,17 @@
 # ampselector
 
-![ampselector](imgur.com image replace me!)
+This is the software component of the AMPSELECTOR project's hardware input (front panel)
 
-*A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Ravinder SOD](https://github.com/ravinder-olivier)
 
-Make example for this keyboard (after setting up your build environment):
-
-    make ampselector:default
-
-Flashing example for this keyboard:
-
-    make ampselector:default:flash
-
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+## TO INSTALL
+To install download the repo, run qmk new-keyboard and call it ampselector (options you select otherwise don't matter), find the folder created by that,
+then delete all the files in the directory, and copy paste the files from Firmware (of this repo) into that folder, and
+then run "qmk compile -kb ampselector -km default". Then you have the compiled file that you can then flash onto the 
+keyboard once built.
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
-
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+Enter the bootloader by:
+- shorting the reset pin

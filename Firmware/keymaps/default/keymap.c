@@ -11,8 +11,8 @@ enum custom_layers {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
      [_BASE] = LAYOUT(
-         KC_A,    KC_B,    KC_C,    KC_D,    KC_MUTE,    // keys 1-4 and encoder 1 click
-         KC_E,    KC_F,    KC_G,    KC_H,    MO(_MEDIA)  // keys 5-8 and encoder 2 click
+         KC_0,    KC_1,    KC_2,    KC_3,    KC_MUTE,    // keys 1-4 and encoder 1 click
+         KC_A,    KC_B,    KC_C,    KC_D,    MO(_MEDIA)  // keys 5-8 and encoder 2 click
      ),
 
      [_MEDIA] = LAYOUT(

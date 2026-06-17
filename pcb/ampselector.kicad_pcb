@@ -90,7 +90,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -123,7 +123,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../production/")
+			(outputdirectory "../Production/gerbers/")
 		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -9966,6 +9966,19 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ce7e2e96-cc54-48cc-9bbf-25f26d96d04c")
+	)
+	(gr_text "@ravinder-Olivier\n\nAMPSELECTOR TALL V1.0.0"
+		(at 127.5 90 -0)
+		(layer "B.Cu")
+		(uuid "488d8034-5a4c-4374-a8da-34cabf972401")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 68.624286 145.35)

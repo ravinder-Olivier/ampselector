@@ -10,7 +10,7 @@ This project aims to provide a hardware tool to access and use software amp mode
 ### Long format
 <img width="509.5" height="149.5" alt="image" src="https://github.com/user-attachments/assets/81ea798d-6864-43a2-bef9-1db7d8381a37" />
 
-The longer format is likely better for most studio settings,
+The longer format is likely better for most studio settings, THERE IS NO CASE DESIGNED YET FOR LONG FORMAT
 
 ### Tall format
 <img width="423" height="414.5" alt="image" src="https://github.com/user-attachments/assets/0a170f6b-1674-49bb-b46a-255913a7c2c0" />

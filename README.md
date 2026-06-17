@@ -35,3 +35,17 @@ This project uses a two part case. The bottom part combines with the top part to
 <img width="621" height="437" alt="image" src="https://github.com/user-attachments/assets/2d285a4e-2cb0-4754-87eb-ba0b4f7fa4e0" />
 <img width="614" height="422" alt="image" src="https://github.com/user-attachments/assets/753bd6af-ab93-46fd-8b6c-ea46d142773f" />
 <img width="591" height="446.5" alt="image" src="https://github.com/user-attachments/assets/ae9809f4-9efe-4fa1-b323-ff8d04d0f6ab" />
+
+## BILL OF MATERIALS (BOM)
+This project will need:
+- 1 Seeed Studio XIAO RP2040
+- 8 through hole 1N4148 diodes
+- 1 OLED Display (.91in)
+- 2 EC11 Rotarary Encoders
+- 8 MX Style Keyswitches
+- 8 DSA Keycaps
+- 1 PCB
+- 1 Top case
+- 1 Bottom case
+- 2 M3 x 16mm Screws
+- 2 M3 Heatset inserts

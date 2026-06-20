@@ -2,7 +2,9 @@
 <img width="621" height="541" alt="image" src="https://github.com/user-attachments/assets/7666c1c1-259e-4f32-a58b-ddbb972ebcf3" />
 
 ## What is it?
-This project aims to provide a hardware tool to access and use software amp modelers in a studio setting.
+This project aims to provide a hardware tool to access and use software amp modelers in a studio setting. 
+I will be using this with Guitar Rig 7, and programming it as I see fit for different setlists, and I would encourage the same in those using this project, keep mixing things up. 
+
 Features:
 - OLED display
 - 2 encoders

@@ -133,9 +133,9 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW6"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "cc98436c-8429-4c30-ac31-e4be4d4344e3")
+			(uuid "fbeee6be-7a77-4113-bbb9-b2b649eaccf1")
 			(effects
 				(font
 					(size 1 1)
@@ -146,7 +146,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "8726df89-b9b4-457b-92b9-fec1cf45aa3a")
+			(uuid "c1a61bdf-6eff-4c7e-9101-fa9c59eee1b7")
 			(effects
 				(font
 					(size 1 1)
@@ -159,7 +159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "954aeab9-bb59-4902-8e5b-05e8ef7c1476")
+			(uuid "dfeb7893-0cba-4c6f-bace-0f8bbe9585ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +172,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99c293b8-0bdf-4ced-8391-3104e20e4092")
+			(uuid "c95db55d-8fd3-48e3-958a-5ac1dc7b0746")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,7 +352,7 @@
 			(uuid "4ad9589f-fb81-425b-85b0-28e5c04d727f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.Fab")
 			(uuid "20ee52af-a811-449b-ab0c-d3af0ea863c4")
 			(effects
@@ -425,7 +425,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW1"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.SilkS")
 			(uuid "1be11042-bbbd-4d00-a1d1-67ece319109a")
 			(effects
@@ -644,7 +644,7 @@
 			(uuid "2bd64af0-baf8-4a50-873b-e087da14efc3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.Fab")
 			(uuid "4a70343f-077f-4ae4-b241-ea1557b7a4d8")
 			(effects
@@ -1140,7 +1140,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW5"
-			(at -2.54 -2.794 0)
+			(at -8.385715 -2.92 0)
 			(layer "F.SilkS")
 			(uuid "066ad6a7-c4b2-4680-90fe-b9adeaf09412")
 			(effects
@@ -1359,7 +1359,7 @@
 			(uuid "8f3df675-b271-4637-9385-eb221982e8d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.385715 -2.92 0)
 			(layer "F.Fab")
 			(uuid "8d3efbad-cdf8-4910-b955-b570c3669bb0")
 			(effects
@@ -1432,7 +1432,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW7"
-			(at -2.54 -2.794 0)
+			(at -8.231429 -2.794 0)
 			(layer "F.SilkS")
 			(uuid "107750d3-85c2-4334-8441-8b14911fcf72")
 			(effects
@@ -1651,7 +1651,7 @@
 			(uuid "11bfb87d-8271-46b7-9a35-fb81c488e252")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.231429 -2.794 0)
 			(layer "F.Fab")
 			(uuid "0f70fee4-f10f-4a8d-9fb7-738bd0f7e5f5")
 			(effects
@@ -1845,9 +1845,9 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW4"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "25b583c9-637a-4263-b524-abfcdad26e5a")
+			(uuid "4636f097-5176-4657-8074-b7e2f758cdb2")
 			(effects
 				(font
 					(size 1 1)
@@ -1858,7 +1858,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "56141428-3686-470e-916f-b15d4d619281")
+			(uuid "ee30a73f-4a56-4128-b4b6-347d248939dd")
 			(effects
 				(font
 					(size 1 1)
@@ -1871,7 +1871,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d74b3d19-a32f-482b-9162-a56274bba395")
+			(uuid "ba55d716-df32-42ac-99d0-b58e78c9fc13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ae0d246-0e08-45dc-80cb-9e2b8d8d61c3")
+			(uuid "44b99f2a-ca31-44b4-99c8-c946bd2e2dff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2064,7 @@
 			(uuid "ec19df62-2a73-4b33-b93a-2bb510201aa9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.Fab")
 			(uuid "10d977f5-83d5-4059-a579-00b92d0a1533")
 			(effects
@@ -2137,7 +2137,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW3"
-			(at -5.04 -0.42 0)
+			(at -8.04 -2.92 0)
 			(layer "F.SilkS")
 			(uuid "3dd1a0dc-adf3-409d-a661-f0a6e3e31e76")
 			(effects
@@ -2356,7 +2356,7 @@
 			(uuid "9cf08a1e-c8a7-4c20-a281-1e17480f061f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.04 -0.42 0)
+			(at -8.04 -2.92 0)
 			(layer "F.Fab")
 			(uuid "e3808cba-725f-40fe-9d3a-8b51450823a1")
 			(effects
@@ -2852,9 +2852,9 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW8"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "80179ff1-ba9d-4a5e-91be-e4d64d2ea627")
+			(uuid "a4dcdd41-37eb-4402-9c8c-0a2fb9cb84cf")
 			(effects
 				(font
 					(size 1 1)
@@ -2863,9 +2863,9 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 4.935 -44.071 0)
+			(at -2.231429 12.954 0)
 			(layer "F.Fab")
-			(uuid "970af6ba-a4dc-4bc6-9654-bb0f61cab6a6")
+			(uuid "4316b9ed-c740-48fc-946c-c6417f5d2b74")
 			(effects
 				(font
 					(size 1 1)
@@ -2878,7 +2878,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6933844-ae95-49c2-8e36-8b224a9bd66f")
+			(uuid "4eb84550-f945-47dd-a300-d376dae56ecb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2891,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "526ab1a1-d72f-4496-8253-05f296d491d0")
+			(uuid "054c0bde-8e6b-4bc7-9186-428d657065e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3071,7 @@
 			(uuid "99037327-3827-4059-afd3-4592de0ea2bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.Fab")
 			(uuid "f66f6cfc-8f3c-4231-b933-c5c85c26a2db")
 			(effects
@@ -3487,9 +3487,9 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW2"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "809f0803-d268-4ef6-88e2-091decc89c99")
+			(uuid "a5525df5-5b83-4db0-9f0d-ded9dd1dc6ce")
 			(effects
 				(font
 					(size 1 1)
@@ -3500,7 +3500,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "172121ea-1189-4d9c-b6d7-120babf3cbfe")
+			(uuid "04f96873-9b92-4df3-9d78-eff9a8d341c2")
 			(effects
 				(font
 					(size 1 1)
@@ -3513,7 +3513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51059ded-681e-4622-a307-f654400b2bd6")
+			(uuid "e12dd119-f9d2-4a7a-8a73-62fb9608b3bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7cc452e-992c-47fb-8773-a669a4dd5779")
+			(uuid "77cfedd2-5d6d-4b9e-9134-d958ca7b57e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3706,7 @@
 			(uuid "37093511-f30b-40d9-b7bc-c4ac684a1cd7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -8.194286 -2.794 0)
 			(layer "F.Fab")
 			(uuid "13967906-a74f-4df9-a455-40b704e89a99")
 			(effects
@@ -9967,15 +9967,16 @@
 		(layer "Edge.Cuts")
 		(uuid "ce7e2e96-cc54-48cc-9bbf-25f26d96d04c")
 	)
-	(gr_text "@ravinder-Olivier\n\nAMPSELECTOR TALL V1.0.0"
-		(at 127.5 90 -0)
-		(layer "B.Cu")
-		(uuid "488d8034-5a4c-4374-a8da-34cabf972401")
+	(gr_text "RAVINDER OLIVIER SINGH DADIALA\n@ravinder-Olivier\nv1.0.0\n\nAMPSELECTOR"
+		(at 76.5 70.5 0)
+		(layer "B.SilkS")
+		(uuid "e02bead8-9dbf-44e9-8d68-3a3459038ee4")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1 1)
+				(thickness 0.2)
 				(bold yes)
+				(italic yes)
 			)
 			(justify left bottom mirror)
 		)

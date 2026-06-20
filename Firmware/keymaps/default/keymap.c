@@ -50,7 +50,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
 }
 
-#if defined(ENCODER_ENABLE)
 bool encoder_update_user(uint8_t index, bool clockwise) {
     uint8_t cc_num = 0;
 
@@ -69,7 +68,6 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     return false;
 }
 
-#if defined(OLED_ENABLE)
 bool oled_task_user(void) {
     // Print a static header
     oled_write_P(PSTR("AMP SELECTOR\n"), false);

@@ -71,7 +71,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 #if defined(OLED_ENABLE)
 bool oled_task_user(void) {
     // Print a static header
-    oled_write_P(PSTR("AMP SELECTOR V1\n"), false);
+    oled_write_P(PSTR("AMP SELECTOR\n"), false);
     oled_write_P(PSTR("---------------\n"), false);
   /*
     // dynamic header implementation

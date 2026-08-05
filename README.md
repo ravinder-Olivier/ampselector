@@ -36,7 +36,7 @@ All build files in the "Production" folder, or in the latest github release
 
 ## Soldering:
 - Solder the board according to the PCB diagram here:
-<img width="557.5" height="611" alt="Screenshot 2026-06-12 131719" src="https://github.com/user-attachments/assets/8d9cfefb-3abc-4161-a798-ec5a23ef4bdb" />
+<img width="557.5" height="611" alt="Screenshot 2026-06-12 131719" src="https://github.com/user-attachments/assets/869be566-75ce-4838-b427-9842c2cb7795" />
 
 ## Flashing firmware:
 - Download the "firmware.uf2" file
@@ -79,7 +79,7 @@ The longer format is likely better for most studio settings, **THERE IS NO CASE 
 
 ### Tall format
 <img width="423" height="414.5" alt="image" src="https://github.com/user-attachments/assets/0a170f6b-1674-49bb-b46a-255913a7c2c0" />
-<img width="557.5" height="611" alt="Screenshot 2026-06-12 131719" src="https://github.com/user-attachments/assets/8d9cfefb-3abc-4161-a798-ec5a23ef4bdb" />
+<img width="557.5" height="611" alt="Screenshot 2026-06-12 131719" src="https://github.com/user-attachments/assets/869be566-75ce-4838-b427-9842c2cb7795" />
 
 The taller format is likely better for desk use, or on top of an amplifier or FRFR cab (as I'll be doing)
 

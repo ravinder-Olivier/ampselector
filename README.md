@@ -52,4 +52,4 @@ This project uses:
 - Once it uploads it should disappear as a USB drive, and restart and begin running the QMK firmware!
 
 ## Mapping to Guitar Rig 7:
-The keyboard will output various MIDI CC codes, which you can map to various functions in GR7. There's some good info on this forum [thread](https://community.native-instruments.com/discussion/46400/guitar-rig-7-switching-presets-live-with-a-midi-foot-controller)
+- The keyboard will output various MIDI CC codes, which you can map to various functions in GR7. There's some good info on this forum [thread](https://community.native-instruments.com/discussion/46400/guitar-rig-7-switching-presets-live-with-a-midi-foot-controller)

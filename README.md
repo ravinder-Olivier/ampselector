@@ -27,7 +27,7 @@ Built using a RP2040 microcontroller in the form of the SEEED STUDIO XIAO, and p
 - This was designed in KiCad 
 
 ![pcb screenshot.png](assets/pcb%20screenshot.png)
-
+![schematic.png](assets/schematic.png)
 
 ## BILL OF MATERIALS (BOM)
 This project uses:

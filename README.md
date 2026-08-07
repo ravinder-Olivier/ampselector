@@ -1,96 +1,54 @@
-# Amp Selector
-<img width="621" height="541" alt="image" src="https://github.com/user-attachments/assets/7666c1c1-259e-4f32-a58b-ddbb972ebcf3" />
+# Ampselector (Guitar Rig 7 centric macropad)
+![ampselector_2026-Aug-07_09-43-04PM-000_CustomizedView7084907294.png](assets/ampselector_2026-Aug-07_09-43-04PM-000_CustomizedView7084907294.png)
 
-## What is it?
-This project aims to provide a hardware tool to access and use software amp modelers in a studio setting. 
-I will be using this with Guitar Rig 7, and programming it as I see fit for different setlists, and I would encourage the same in those using this project, keep mixing things up. 
+Ampselector is a 8 key + two encoder macropad designed to be used for Guitar Rig 7. For actions such as switching between amps or effects presets.
 
-Features:
-- OLED display
-- 2 encoders
-- 8 keys
+Built using a RP2040 microcontroller in the form of the SEEED STUDIO XIAO, and powered by custom software built on QMK.
+
+## Features: 
+- 4x2 grid array
+- Dual EC11 microcontrollers
+- OLED Display
+- Natively outputs MIDI CC codes, and can be programmed into GR7
+
+
+## CAD / Assembly
+- The PCB is screwed *(M3 screw)* onto the lower case with two screws *(into heatset inserts)*
+- The top panel is super glued onto the lower case *(sleeker look)*
+- Uses MX style keys and keycaps
+- This was designed in Fusion360
+- Make sure to flash firmware and have it running before you superglue the case together!
+
+![Screenshot 2026-08-07 135545.png](assets/Screenshot%202026-08-07%20135545.png)
+
+## PCB 
+- I would recommend buying a thicker style of 2 layer PCB for this project, for the added durability and rigidity
+- This was designed in KiCad 
+
+![pcb screenshot.png](assets/pcb%20screenshot.png)
+
 
 ## BILL OF MATERIALS (BOM)
-This project will need:
-- 1 Seeed Studio XIAO RP2040
-- 8 through hole 1N4148 diodes
-- 1 OLED Display (.91in)
-- 2 EC11 Rotarary Encoders
-- 8 MX Style Keyswitches
-- 8 DSA Keycaps
-- 1 PCB
-- 1 Top case
-- 1 Bottom case
-- 2 M3 x 16mm Screws
-- 2 M3 Heatset inserts
+This project uses:
+- 1x Seeed Studio XIAO RP2040
+- 8x through hole 1N4148 diodes
+- 1x OLED Display (.91in)
+- 2x EC11 Rotarary Encoders
+- 8x MX Style Keyswitches
+- 8x DSA Keycaps
+- 2x M3 x 16mm Screws
+- 2x M3 Heatset inserts
+- 1x PCB (order with gerbers.zip in production)
+- 1x Top case (3d print  file in production)
+- 1x Bottom case (3d print  file in production)
 
-# BUILD INSTRUCTIONS:
-All build files in the "Production" folder, or in the latest github release
-
-## Case: 
-- Slice (in your printers appropriate software) and 3d print both the "upper panel" and "lower case" 3mf files
-- If you are ordering a 3d print, merely send both 3mf files to your printing service
-
-## PCB:
-- Order the PCB with the gerbers.zip file. You can choose a silkscreen color of your choice, and the dimensions are 85x100 (which will prepopulate if you wait for a few moments after uploading the gerbers.zip file)
-
-## Soldering:
-- Solder the board according to the PCB diagram here:
-<img width="557.5" height="611" alt="Screenshot 2026-06-12 131719" src="https://github.com/user-attachments/assets/869be566-75ce-4838-b427-9842c2cb7795" />
 
 ## Flashing firmware:
 - Download the "firmware.uf2" file
-- Plug in the Xiao to your computer with a (data-compatible) USB cable
-- Enter bootloader by: Pressing and holding down the B button, then press and release the R button (while continuing to hold B button), then release the B button
-- Drag and drop the "firmware.uf2" file onto the Xiao, as it will appear like a USB drive on your computer
+- Press and hold the BOOT button on the RP2040 board
+- Connect the Data compatible USB cable to the board
+- It will appear like a USB drive on your computer, drop the "firmware.uf2" file onto it
 - Once it uploads it should disappear as a USB drive, and restart and begin running the QMK firmware!
 
 ## Mapping to Guitar Rig 7:
 - The keyboard will output various MIDI CC codes, which you can map to various functions in GR7. There's some good info on this forum [thread](https://community.native-instruments.com/discussion/46400/guitar-rig-7-switching-presets-live-with-a-midi-foot-controller)
-
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-
-# Project Details 
-
-## PCB
-### Schematic
-<img width="1797" height="1141" alt="image" src="https://github.com/user-attachments/assets/8396514d-3abd-46d3-91ce-4c2643199480" />
-
-### Long format
-<img width="509.5" height="149.5" alt="image" src="https://github.com/user-attachments/assets/81ea798d-6864-43a2-bef9-1db7d8381a37" />
-
-The longer format is likely better for most studio settings, **THERE IS NO CASE DESIGNED YET FOR LONG FORMAT**
-
-### Tall format
-<img width="423" height="414.5" alt="image" src="https://github.com/user-attachments/assets/0a170f6b-1674-49bb-b46a-255913a7c2c0" />
-<img width="557.5" height="611" alt="Screenshot 2026-06-12 131719" src="https://github.com/user-attachments/assets/869be566-75ce-4838-b427-9842c2cb7795" />
-
-The taller format is likely better for desk use, or on top of an amplifier or FRFR cab (as I'll be doing)
-
-## FIRMWARE
-
-This project uses QMK firmware for everything.
-
-## CASE
-
-This project uses a two part case. The bottom part combines with the top part to form the enclosure for the keyboard. Top part of the case is glued on to the lower.
-<br>
-<img width="621" height="437" alt="image" src="https://github.com/user-attachments/assets/2d285a4e-2cb0-4754-87eb-ba0b4f7fa4e0" />
-<img width="614" height="422" alt="image" src="https://github.com/user-attachments/assets/753bd6af-ab93-46fd-8b6c-ea46d142773f" />
-<img width="591" height="446.5" alt="image" src="https://github.com/user-attachments/assets/ae9809f4-9efe-4fa1-b323-ff8d04d0f6ab" />

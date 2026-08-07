@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../Production/gerbers/",
+      "plot": "C:/Users/ravin/Downloads/gebers/",
       "specctra_dsn": "",
       "vrml": ""
     },

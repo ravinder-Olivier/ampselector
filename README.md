@@ -21,6 +21,7 @@ Built using a RP2040 microcontroller in the form of the SEEED STUDIO XIAO, and p
 
 ![Screenshot 2026-08-07 135545.png](assets/Screenshot%202026-08-07%20135545.png)
 
+
 ## PCB 
 - I would recommend buying a thicker style of 2 layer PCB for this project, for the added durability and rigidity
 - This was designed in KiCad 
